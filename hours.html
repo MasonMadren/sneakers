@@ -4,63 +4,109 @@
 <head>
     <meta charset="utf-8">
         <title>Kicks Kloset</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/minty/bootstrap.min.css">
+        <style>
+        	img {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 40%;
+			}
+      		.mycolor {
+        		background-color: #FAF9F0;
+        		border-style: solid;
+        		border-width: 1px;
+      		}
+      		.container {
+        		background-color: #FAF9F0;
+        		border-style: solid;
+        		border-width: 1px;
+      		}
+    	</style>
+
+
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li> <a href="index.html">Home</a></li>
-                <li> <a href="about.html">About Us</a></li> 
-                <li> <a href="inventory.html">Inventory</a></li>
-                <li> <a href="hours.html">Hours and Directions</a></li> 
-                <li> <a href="expertop.html">Expert Top</a></li>
-                <li> <a href="ogs.html">OG's</a></li>
-            </ul>   
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 	     <a class="navbar-brand" href="#">Kicks Kloset</a>
+ 	     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+ 	       <span class="navbar-toggler-icon"></span>
+	     </button>
 
-        </nav>
+ 	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-<h1>Hours and Location</h1>      
-<img src="images/logo.jpg">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
 
-</header>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
 
-<section>
-	<article>
+          <li class="nav-item">
+            <a class="nav-link" href="inventory.html">Inventory</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="hours.html">Hours & Directions</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="expertop.html">Experts</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="ogs.html">OG's</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+</body>
+
+<div class="container">
+	<h1>Hours and Location</h1>      
+	<img src="images/logo.jpg">
 		<h2> Indianola's go to sneaker store </h2>
-			<h5> You can find us in the Kresge dorm rooms or doing shoe presentations in Kent Campus Center. We are available over the phone as well (515) 803-5700. </h5>
-			<h2> Operating Hours Below: </h2>
-			<table>
-				<tr>
-					<th>Day</th>
-					<th>Monday</th>
-					<th>Tuesday</th>
-					<th>Wedneseday</th>
-					<th>Thursday</th>
-					<th>Friday</th>
-					<th>Saturday</th>
-					<th>Sunday</th>
-				</tr>
-				<tr>
-					<th>Hours</th>
-					<td>6am-9pm</td>
-					<td>6am-9pm</td>
-					<td>6am-9pm</td>
-					<td>6am-9pm</td>
-					<td>6am-6pm</td>
-					<td>10am-6pm</td>
-					<td>Closed</td>
-				</tr>
-			</table>
-				<p>*Hours Subject to Change due to COVID-19*</p>
-	</article>
-</section>
+		<h5> You can find us in the Kresge dorm rooms or doing shoe presentations in Kent Campus Center. We are available over the phone as well (515) 803-5700. </h5>
+		<h2> Operating Hours Below: </h2>
 
-<br>
-<footer>
-	<!-- HTML Entities below -->
-	&copy; 2020 by Chance Knox &amp; Gabriel Encarnacion
-	<br>
-	Contact Us &ndash; (515) 803-5700
-</footer>
-		</body>
+	<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Day</th>
+      <th scope="col">Monday</th>
+      <th scope="col">Tuesday</th>
+      <th scope="col">Wednesday</th>
+      <th scope="col">Thursday</th>
+      <th scope="col">Friday</th>
+      <th scope="col">Saturday</th>
+      <th scope="col">Sunday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Hours</th>
+      <td>6am-9pm</td>
+      <td>6am-9pm</td>
+      <td>6am-9pm</td>
+      <td>6am-9pm</td>
+      <td>6am-9pm</td>
+      <td>6am-9pm</td>
+      <td>6am-9pm</td>
+    </tr>
+  </tbody>
+</table>
+			</table>
+			<div class="alert alert-dark" role="alert">
+				*Hours Subject to Change due to COVID-19*
+			</div>
+	<footer>
+		&copy; 2020 by Chance Knox &amp; Gabriel Encarnacion
+		Contact Us &ndash; (515) 803-5700
+	</footer>
+</div>
